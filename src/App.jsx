@@ -117,10 +117,10 @@ function App() {
       <img src={profile} alt="" className='imgs' />
       </div>
       <About/>
-     <Skills/>
+      <Skills/>
      <Project/>
      <Contact/>
-    
+     
     
      
     </>
