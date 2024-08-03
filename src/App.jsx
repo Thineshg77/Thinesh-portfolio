@@ -16,10 +16,10 @@ function Skills(){
       <img src={css} alt="" />
       <img src={Javvascript} alt=""  className='man'/>
       </div>
-      <div className="skill">
+      <div className="skille">
       <img src={bootstrap} alt="" />
       <img src={reacts} alt="" />
-      <img src={mangodb} alt=""/>
+      <img src={mangodb} alt="" className='women'/>
       </div>
      </div>
   );
@@ -28,7 +28,7 @@ function Skills(){
 function Project(){
   return(
     <div className="inform">
-      <h1>PROJECTS</h1>
+      <h1 className='proj'>PROJECTS</h1>
       <div className="btn">
        <a href='https://github.com/Thineshg77/Weather-app'><button className='btnd'>Weather App</button></a>
        <a href='https://github.com/Thineshg77/Advice'><button className='btnd'>Advice App</button></a>
@@ -96,12 +96,16 @@ function App() {
           <table>
             <tbody>
               
-            <div class="topnav">
-               <a class="active" href="#home">Home</a>
-               <a href="#news">About</a>
-               <a href="#contact">Skills</a>
-               <a href="#about">Contact</a>
-            </div>
+            <div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
             </tbody>
           </table>
          </nav>
@@ -120,6 +124,7 @@ function App() {
       <Skills/>
      <Project/>
      <Contact/>
+   
      
     
      
