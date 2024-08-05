@@ -29,7 +29,7 @@ body{
     color: beige;
     padding-top: 30px;
     @media screen and (max-width:624px) {
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: flex-start;
         flex-wrap: wrap;
         margin-right: 30%;
@@ -37,14 +37,18 @@ body{
 }
 .imgs{
     border-radius: 50%;
-    margin-left: 27%;
+    margin-left: 20%;
     margin-right: 2%;
+    height: 400px;
+    width: 400px;
+
     @media screen and (max-width:624px) {
         flex-direction: column;
-        border-radius: 50%;
+        border-radius: 10%;
         height: 300px;
         width: 300px;
-        margin-top: 20px;
+        
+        
     
     }
     
@@ -54,6 +58,9 @@ body{
     margin-left: 10%;
     margin-top: 7%;
     font-size: 60px;
+    @media screen and (max-width:624px) {
+      margin-bottom: none;
+    }
 }
 .para{
     font-size: 14px;
@@ -233,6 +240,7 @@ span{
     text-align: center;
     @media screen and (max-width:624px) {
             margin-right: 18%;
+        
     }
 }
 .b{
