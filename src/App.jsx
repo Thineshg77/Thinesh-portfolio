@@ -6,6 +6,7 @@ import Javvascript from './assets/js.png'
 import bootstrap from './assets/bootstrap.png'
 import mangodb from './assets/mangodb.png'
 import reacts from './assets/react.svg'
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 function Skills(){
   return(

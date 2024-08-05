@@ -33,6 +33,7 @@ body{
         justify-content: flex-start;
         flex-wrap: wrap;
         margin-right: 30%;
+        width:fit-content;
     }
 }
 .imgs{
@@ -60,12 +61,13 @@ body{
     font-size: 60px;
     @media screen and (max-width:624px) {
       margin-bottom: none;
+      width:fit-content;
     }
 }
 .para{
     font-size: 14px;
     @media screen and (max-width:624px) {
-    
+    width:fit-content;
 }
 }
 .skill{
@@ -235,7 +237,7 @@ span{
 }
 .tit{
     color: white;
-    margin-top: 20px;
+    margin-top: 0px;
     margin-left: 10px;
     text-align: center;
     @media screen and (max-width:624px) {
